@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icons8-tubi-16.png" type="image/x-icon" />
+    <title>Movie Watchlist</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav
+      class="navbar navbar-expand navbar-dark"
+      aria-label="Second navbar example"
+      style="background-color: rgb(18, 19, 20);;
+      ;
+      ;"
+    >
+      <div class="container-fluid">
+        <a class="tubi_name navbar-brand" href="./index.html">tubi.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample02"
+          aria-controls="navbarsExample02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="nav_items collapse navbar-collapse" id="navbarsExample02">
+          <form class="search_btn" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <button class="reg_signBtn" type="button"><a href="./Register.html" style="text-decoration: none; color: black;">Register</a> </button>
+
+          <a href="./signin.html">
+            <button
+              class="reg_signBtn"
+              type="button"
+              style="background-color: rgba(255, 255, 255, 0.32)"
+            >
+              Sign In
+            </button></a
+          >
+
+          <!--  -->
+        </div>
+      </div>
+    </nav>
+ <!-- drama movie -->
+ <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img
+          src="./img/group movie.jpg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+      <div class="col-lg-6">
+        <h1
+          class="display-5 fw-bold text-body-emphasis lh-1 mb-3"
+          style="color: brown !important; font-size: 56px; padding: 16px"
+        >
+          Welcome to tubi.
+        </h1>
+        <p
+          class="lead"
+          style="font-size: 2rem; font-weight: 500; color: white"
+        >
+         Thanks! to Join tubi to watch the latest movies ,TV shows and award winning
+          Tubi originals
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button
+            type="button"
+            class="signin_tubi btn-primary btn-lg px-4 me-md-2"
+            fdprocessedid="ns7pqe"
+          >
+            <a
+              href="./signin.html"
+              style="text-decoration: none; color: white"
+              > join tubi </a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end  movie -->
+    <div class="container py-5">
+        <h1 class="text-center">Rent Movies</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+            <!-- Movie Card -->
+            <div class="col movie_div">
+                <div class="card bg-dark text-white">
+                    <video src="./The boss baby.mp4" width="100%" height="225"autoplay muted loop playsinline style="object-fit: fill; height: 100%;"></video>
+                    <div class="card-body">
+                        <h3 class="card-title">The Boss Baby</h3>
+                        <button type="button" class="btn btn-outline-secondary watchlist-btn">Add to Watchlist</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col movie_div">
+                <div class="card bg-dark text-white">
+                    <video src="./sitaramam.mp4" width="100%" height="225"autoplay muted loop playsinline style="object-fit: fill; height: 100%;"></video>
+                    <div class="card-body">
+                        <h3 class="card-title">Sita Ramam</h3>
+                        <button type="button" class="btn btn-outline-secondary watchlist-btn">Add to Watchlist</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another Movie Card -->
+            <div class="col movie_div">
+                <div class="card bg-dark text-white">
+                    <video src="./yeh jawani.mp4" width="100%" height="225" autoplay muted loop playsinline style="object-fit: fill; height: 100%;"></video>
+                    <div class="card-body">
+                        <h3 class="card-title">Yeh Jawani Hai diwani</h3>
+                        <button type="button" class="btn btn-outline-secondary watchlist-btn">Add to Watchlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col movie_div">
+              <div class="card bg-dark text-white">
+                  <video src="./pathaan.mp4" width="100%" height="225" autoplay muted loop playsinline style="object-fit: fill; height: 100%;"></video>
+                  <div class="card-body">
+                      <h3 class="card-title">Pathan</h3>
+                      <button type="button" class="btn btn-outline-secondary watchlist-btn">Add to Watchlist</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col movie_div">
+            <div class="card bg-dark text-white">
+                <video src="./pati movie.mp4" width="100%" height="225" autoplay muted loop playsinline style="object-fit: fill; height: 100%;"></video>
+                <div class="card-body">
+                    <h3 class="card-title">Pati Patni or Woh</h3>
+                    <button type="button" class="btn btn-outline-secondary watchlist-btn">Add to Watchlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="col movie_div">
+          <div class="card bg-dark text-white">
+              <video src="./wrong-turn.mp4" width="100%" height="225" autoplay muted loop playsinline style="object-fit: fill; height: 100%;"></video>
+              <div class="card-body">
+                  <h3 class="card-title">Wrong</h3>
+                  <button type="button" class="btn btn-outline-secondary watchlist-btn">Add to Watchlist</button>
+              </div>
+          </div>
+      </div>
+
+        </div>
+
+        <div id="watchlist-section" class="mt-5">
+            <h2>My Watchlist</h2>
+            <div id="watchlist-container" class="row"></div>
+            <div id="empty-message" style="display: none;">Your watchlist is empty.</div>
+        </div>
+    </div>
+
+ <!--  starting of footer  -->
+
+ <div class="container">
+    <footer class="py-5" style="color: white; padding-bottom: 1rem !important;">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5 style="color: white">Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >FAQs</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >FAQs</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >FAQs</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="#"
+                class="nav-link p-0 text-body-secondary"
+                style="color: white !important"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5 style="color: white">Subscribe to our <b style="color: brown;">tubi.</b></h5>
+            <p style="color: white">
+              Monthly digest of what's new and exciting from us.
+            </p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label
+                for="newsletter1"
+                class="visually-hidden"
+                style="color: white"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-control"
+                placeholder="Email address"
+                fdprocessedid="t8oron"
+              />
+              <button
+                class="btn btn-primary"
+                type="button"
+                fdprocessedid="cakjn"
+                style="background: brown; border: none ;width: 103px;
+    height: 38px;"
+              >
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div
+        class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+      >
+        <p style="color: white"> <span style="color: brown;">@Nidz</span> 2024 Company, Inc. All rights reserved.</p>
+        
+      
+      </div>
+      
+    </footer>
+  </div>
+
+
+<!--  watchlist javascript -->
+    <script>
+        let watchlist = [];
+
+        
+        function updateWatchlistDisplay() {
+            const watchlistContainer = document.getElementById('watchlist-container');
+            const emptyMessage = document.getElementById('empty-message');
+            watchlistContainer.innerHTML = '';
+
+            if (watchlist.length === 0) {
+                emptyMessage.style.display = 'block';
+            } else {
+                emptyMessage.style.display = 'none';
+                watchlist.forEach(item => {
+                    const listItem = document.createElement('div');
+                    listItem.classList.add('col-12', 'mb-2');
+                    listItem.innerHTML = `
+                        <video width="250" height="130" controls autoplay  loop>
+                            <source src="${item.trailer}" type="video/mp4">
+                        </video>
+                        <p>${item.title}</p>
+                    `;
+                    watchlistContainer.appendChild(listItem);
+                });
+            }
+        }
+
+        // Event listener for watchlist buttons
+        document.addEventListener("DOMContentLoaded", function() {
+            const watchlistButtons = document.querySelectorAll('.watchlist-btn');
+
+            watchlistButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const cardBody = this.closest('.card-body');
+                    const movieTitle = cardBody.querySelector('.card-title').textContent;
+                    const movieTrailer = cardBody.previousElementSibling.getAttribute('src');
+
+                    const movieIndex = watchlist.findIndex(item => item.title === movieTitle);
+                    if (movieIndex === -1) {
+                        watchlist.push({ title: movieTitle, trailer: movieTrailer });
+                        this.textContent = "Remove from Watchlist";
+                    } else {
+                        watchlist.splice(movieIndex, 1);
+                        this.textContent = "Add to Watchlist"; 
+                    }
+                    updateWatchlistDisplay();
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
