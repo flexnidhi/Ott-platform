@@ -1,0 +1,287 @@
+body{
+  background-color: black !important;
+}
+/*  nav bar css */
+.logo {
+    height: 40px; 
+    width: auto;  
+}
+.tubi_name{
+    color: #c03535 !important;
+    font-size: 33px !important;
+    margin-left: 82px;
+    font-weight: 800;
+}
+.nav_items{
+    display: flex;
+    justify-content: end;
+    gap: 14px;
+}
+
+.reg_signBtn{
+    font-size: 20px;
+    padding: 3px 9px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+    
+}
+
+
+/* startion section 1 */
+
+
+ @keyframes zoomInOut {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.zoom-button {
+  
+  transition: transform 0.3s ease-in-out;
+} 
+
+
+ .zoom-button:hover {
+  transform: scale(1.1);
+}
+
+.watch_btn{
+  background-color: #c03535 !important;
+  border: none !important;
+  ;
+}
+
+/* ending section 1 */
+
+/* start movies */
+.signin_tubi{
+  background-color: brown;
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+         
+}
+.signin_tubi:hover{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+/* Carousel container */
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden; 
+}
+
+.carousel-container {
+  display: flex;
+  animation: scroll 15s linear infinite; 
+  gap: 13px;
+}
+
+.movie-card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movie-card:hover {
+  transform: scale(1.05); 
+}
+
+.movie-card:hover .trailer-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.movie-card:hover {
+  transform: scale(1.1); 
+  z-index: 2; 
+}
+
+.movie-card:hover .trailer-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.trailer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.trailer-overlay iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+/* rent css */
+#notification-area,
+#like-notification-area {
+  transition: all 0.5s ease-in-out;
+}
+
+.alert {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .movie-card {
+    width: 150px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 500px) {
+  .movie-card {
+    width: 120px;
+    height: 180px;
+  }
+}
+
+/* end movies */
+
+/* css of rent movies */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 225px;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.video-container img.video-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.movie_div:hover{
+  transform: scale(0.9);
+  z-index: 2;
+  transition: transform 0.7s ease-in-out;
+}
+.rent_movie{
+  color: brown;
+  font-size: 55px;
+  padding-left: 117px;
+  padding-bottom: 29px
+}
+
+
+/*  all media tag */
+
+
+
+@media  (max-width:634px) {
+    .tubi_name{
+        margin-left: 0px;
+    }
+}
+@media  (max-width:520px) {
+    .search_btn{
+        display: none;
+    }
+}
+@media  (max-width:520px) {
+  .material-button , .alt-2{
+      display: none !important;
+  }
+}
+@media (max-width: 634px) {
+  .tubi_name {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .search_btn {
+    display: none;
+  }
+
+  .material-button,
+  .alt-2 {
+    display: none !important;
+  }
+}
+
+ @media (max-width: 1025px) {
+ .kalki_movie , .bedNews ,.tereBaato_movie{
+  bottom: 200px !important;
+  left: 100px !important;
+ }
+} 
+@media (max-width: 700px) {
+  .kalki_movie , .bedNews ,.tereBaato_movie{
+   display: none !important;
+  }
+ }
+ @media (max-width: 770px) {
+  
+  .shiddat_intro{
+    margin-top: 0px !important; 
+    margin-left: 0px !important;
+    
+  }
+  .siddat_title{
+    width: 309px !important;
+  }
+}
+
+
+
+/* rent media tag css */
+@media (max-width: 320px) {
+  
+  .rent_movie{
+    padding-left: 38px;
+  }
+}
