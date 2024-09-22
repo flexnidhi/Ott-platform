@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/icons8-tubi-16.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Watch free movies and Tv Shows...</title>
+  </head>
+  <body class="sign_body">
+    <!-- Starting navigation bar -->
+    <nav
+      class="navbar navbar-expand navbar-dark"
+      aria-label="Second navbar example"
+      style="background-color: rgb(18, 19, 20);position: fixed;
+      width: 100%;
+      z-index: 5;"
+    >
+      <div class="container-fluid">
+        <a class="tubi_name navbar-brand" href="./index.html">tubi.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample02"
+          aria-controls="navbarsExample02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="nav_items collapse navbar-collapse" id="navbarsExample02">
+          <form class="search_btn" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <button class="reg_signBtn" type="button"><a href="./Register.html" style="text-decoration: none; color: black;">Register</a> </button>
+
+          
+          <a href="./signin.html">
+            <button
+              class="reg_signBtn"
+              type="button"
+              style="background-color: rgba(255, 255, 255, 0.32)"
+            >
+             Sign In
+            </button></a
+          >
+
+          <!--  -->
+        </div>
+      </div>
+    </nav>
+
+    <!--Ending navigation bar -->
+    <!--singn in page  -->
+    <div id="content" class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3" style="color: brown !important">Register Now to join tubi</h1>
+          <p class="col-lg-10 fs-4" style="color: white">
+            Join tubi to watch the latest movies, TV shows, and award-winning Tubi originals.
+          </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <div class="form-floating mb-3">
+                <input type="text" id="Name" class="form-control" placeholder="Name" />
+                <label for="name">Name</label>
+              </div>
+            <div class="form-floating mb-3">
+              <input type="email" id="signinEmail" class="form-control" placeholder="name@example.com" />
+              <label for="email">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" id="signinPassword" class="form-control" placeholder="Password" />
+              <label for="password">Password</label>
+            </div>
+            <div class="checkbox mb-4"></div>
+              <label>
+                <input type="checkbox" value="remember-me" /> Remember me
+              </label>
+              <button type="button" id="signInBtn" class="w-100 btn btn-lg btn-primary" style="background-color: brown; border: none;">Register</button>
+
+            <hr class="my-4" />
+            <small class="text-body-secondary"
+              >Register Now to join the latest movie.</small
+            >  
+            </div>
+             
+          </form>
+                    
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+      <footer class="py-5" style="color: white; padding-bottom: 1rem !important;">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 style="color: white">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >FAQs</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >FAQs</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >FAQs</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-body-secondary"
+                  style="color: white !important"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5 style="color: white">Subscribe to our newsletter</h5>
+              <p style="color: white">
+                Monthly digest of what's new and exciting from us.
+              </p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label
+                  for="newsletter1"
+                  class="visually-hidden"
+                  style="color: white"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                  fdprocessedid="t8oron"
+                />
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  fdprocessedid="cakjn"
+                  style="background: brown; border: none"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p style="color: white">© 2024 Company, Inc. All rights reserved.</p>
+          
+        
+        </div>
+      </footer>
+    </div>
+    <!-- end footer -->
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
